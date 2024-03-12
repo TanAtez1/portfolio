@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(53, 53, 53);
+}
+
+h1,p,h2 {
+    color: white;
+    font-family: 'Author', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Author', sans-serif;
+}
+
+#header {
+    position: sticky;
+    top: 1rem;
+    z-index: 9999;
+}
+
+
+.link_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.link_container a {
+    margin: 0 20px;
+    border-radius: 100px;
+}
+
+.link_container a li {
+    background-color: white;
+    border-radius: 100px;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+#home {
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_container {
+    display: flex;
+}
+
+.text_container {
+    margin-right: 10rem;
+}
+
+img {
+    border-radius: 20px;
+    height: 20rem;
+    width: 20rem;
+}
+
+.home_title {
+    font-size: 70px;
+    font-family: 'Author', sans-serif;
+}
+
+#about {
+    padding-bottom: 14rem;
+}
+
+.about_profile {
+    border-radius: 50% !important;
+}
+
+.sub_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.sub_container p {
+    margin-right: 5rem;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+#services {
+    padding-bottom: 20rem;
+}
+
+.services_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.sub_container1 {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.services_img {
+    height: 15rem;
+    width: 15rem;
+}
+
+#contact {
+    padding-bottom: 10rem;
+    text-align: center;
+}
+
+.contact_title, .about_title, .services_title {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 5rem;
+}
+
+.contact_container {
+    display: inline-block;
+}
+
+.contact_container p {
+    text-align: left !important;
+}
+
+.contact_container1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.contact_message {
+    border-radius: 30px !important;
+    padding-bottom: 10rem;
+}
+
+input {
+    border-radius: 100px;
+    border: none;
+    width: 30rem;
+    height: 30px;
+    margin-bottom: 1rem;
+    margin-top: 8px;
+    padding-left: 1rem;
+}
+
+button {
+    border-radius: 100px;
+    width: 8rem;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover, a:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.send_button {
+    margin-top: 3rem;
+}
