@@ -177,3 +177,20 @@ button:hover, a:hover {
 .send_button {
     margin-top: 3rem;
 }
+
+
+#das {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.excelsheet {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    height: 50rem;
+    width: 75rem;
+    margin-top: 2rem;
+    border: 3px solid black;
+}
